@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "49W1He70L+o=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ebera\\OneDrive\\Desktop\\WebEmpresa\\WebEmpresa.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ebera\\.nuget\\packages\\microsoft.aspnetcore.app.internal.assets\\10.0.11\\microsoft.aspnetcore.app.internal.assets.10.0.11.nupkg.sha512"
+  ],
+  "logs": []
+}
