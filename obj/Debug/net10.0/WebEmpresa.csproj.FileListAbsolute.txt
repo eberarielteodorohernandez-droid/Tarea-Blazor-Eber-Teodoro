@@ -83,3 +83,4 @@ C:\Users\ebera\OneDrive\Desktop\WebEmpresa\obj\Debug\net10.0\refint\WebEmpresa.d
 C:\Users\ebera\OneDrive\Desktop\WebEmpresa\obj\Debug\net10.0\WebEmpresa.pdb
 C:\Users\ebera\OneDrive\Desktop\WebEmpresa\obj\Debug\net10.0\WebEmpresa.genruntimeconfig.cache
 C:\Users\ebera\OneDrive\Desktop\WebEmpresa\obj\Debug\net10.0\ref\WebEmpresa.dll
+C:\Users\ebera\OneDrive\Desktop\WebEmpresa\obj\Debug\net10.0\WebEmpresa.sourcelink.json

@@ -26,6 +26,24 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+// Middleware de seguridad endurecido para cumplir al 100% con las reglas de CSP
+app.Use(async (context, next) =>
+{
+    context.Response.Headers["Content-Security-Policy"] = 
+        "default-src 'self'; " +
+        "script-src 'self'; " +
+        "style-src 'self'; " +
+        "img-src 'self' data:; " +
+        "connect-src 'self' ws://localhost:* wss://localhost:*; " +
+        "frame-ancestors 'self'; " +
+        "form-action 'self'; " +
+        "object-src 'none';";
+    
+    context.Response.Headers["X-Content-Type-Options"] = "nosniff";
+
+    await next();
+});
+
 app.UseStaticFiles();
 
 app.UseAntiforgery();
